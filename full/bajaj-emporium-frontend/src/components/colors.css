@@ -1,0 +1,29 @@
+/* Fashion-Forward Color Palette */
+:root {
+    --primary-color: #6D2E46; /* Deep Maroon */
+    --secondary-color: #F5E6CC; /* Soft Beige */
+    --accent-color: #D4AF37; /* Gold */
+    --background-color: #FAF8F6; /* Off-White */
+    --text-color: #333333; /* Charcoal Gray */
+    --border-color: #D1C7BF; /* Muted Gray */
+    --hover-color: #8B4166; /* Rich Plum */
+    --white: #FFFFFF;
+    
+    /* Buttons & Highlights */
+    --primary: #ff5733; /* Vibrant orange */
+    --secondary: #3a1c71; /* Deep purple */
+    --text-light: #ffffff; /* White */
+    --text-dark: #222222; /* Dark text */
+    --background: #f8f8f8; /* Light grey */
+
+    /* Gradient Colors */
+    --gradient-dark: rgba(58, 28, 113, 0.7);
+    --gradient-mid: rgba(215, 109, 119, 0.7);
+    --gradient-light: rgba(255, 175, 123, 0.7);
+}
+
+/* Global Background */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
